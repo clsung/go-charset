@@ -156,8 +156,13 @@
 },
 "windows-31j": {
 	"Aliases":["cp932"],
-	"Desc": "MS-Windows Japanese (cp932)",
+	"Desc": "MS Windows CP 932 (Japanese)",
 	"Class": "cp932",
 	"Arg": "cp932"
+},
+"windows-949": {
+	"Aliases":["cp949", "ms949", "uhc"],
+	"Desc": "MS Windows CP 949 (Korean)",
+	"Class": "cp949"
 }
 }

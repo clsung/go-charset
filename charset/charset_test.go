@@ -28,6 +28,7 @@ var tests = []translateTest{
 	{false, "utf-8", "a♔é\x80", "a♔é" + string(utf8.RuneError)},
 	{true, "sjis", "", ""},
 	{true, "latin1", "\xa35 for Pepp\xe9", "£5 for Peppé"},
+	{true, "cp949", "\xbe\xc6\xb8\xa7\xb4\xd9\xbf\xee \xbf\xec\xb8\xae\xb8\xbb", "아름다운 우리말"},
 }
 
 func TestCharsets(t *testing.T) {
