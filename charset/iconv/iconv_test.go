@@ -1,13 +1,14 @@
 package iconv_test
 
 import (
-	_ "code.google.com/p/go-charset/charset/iconv"
 	"bytes"
-	"code.google.com/p/go-charset/charset"
 	"io"
 	"strings"
 	"testing"
 	"unicode/utf8"
+
+	"github.com/suapapa/go-charset/charset"
+	_ "github.com/suapapa/go-charset/charset/iconv"
 )
 
 // TODO(rog) better than this

@@ -2,12 +2,13 @@ package charset_test
 
 import (
 	"bytes"
-	"code.google.com/p/go-charset/charset"
-	_ "code.google.com/p/go-charset/data"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"strings"
+
+	"github.com/suapapa/go-charset/charset"
+	_ "github.com/suapapa/go-charset/data"
 )
 
 func ExampleNewReader() {
